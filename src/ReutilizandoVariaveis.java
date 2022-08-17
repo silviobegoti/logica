@@ -11,7 +11,7 @@ para o novo cálculo, repetindo o processo
 */
 public class ReutilizandoVariaveis {
     public static void main(String[] args){
-        double salario = 5000;
+        double salario = 10000;
         double resultado = salario * 0.3;
         System.out.println("30% eh: "+resultado);
         resultado = salario * 0.15;
