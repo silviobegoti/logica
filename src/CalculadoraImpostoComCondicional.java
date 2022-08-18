@@ -5,6 +5,7 @@ se o salário for maior que 4500 imprima 30% do valor
 senão imprima 15% do valor
 Desafio: Utilizr apenas uma variável para guardar o resultado e imprimir no final
 Desafio2: Diga na impressão se é 30% ou 15%
+
 */
 public class CalculadoraImpostoComCondicional {
     public static void main(String[] args) {
