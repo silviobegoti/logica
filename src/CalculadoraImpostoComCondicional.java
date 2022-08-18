@@ -3,15 +3,21 @@
 Dado um determinado salário
 se o salário for maior que 4500 imprima 30% do valor
 senão imprima 15% do valor
-*/public class CalculadoraImpostoComCondicional {
+Desafio: Utilizr apenas uma variável para guardar o resultado e imprimir no final
+Desafio2: Diga na impressão se é 30% ou 15%
+*/
+public class CalculadoraImpostoComCondicional {
     public static void main(String[] args) {
-        float salario = 4000F;
+        float salario = 4800F;
+        float resultado = 0F;
+        String porcentagem = "";
         if (salario > 4500) {
-            float trintaPorCento = salario * 0.3F;
-            System.out.println("Imposto 30%: " + trintaPorCento);
+            resultado = salario * 0.3F;
+            porcentagem = "30%";
         } else {
-            float quinzePorCento = salario * 0.15F;
-            System.out.println("Imposto 15%: " + quinzePorCento);
+            resultado = salario * 0.15F;
+            porcentagem = "15%";
         }
+        System.out.println("O valor final em porcentagem de "+porcentagem+" é de "+resultado);
     }
 }
