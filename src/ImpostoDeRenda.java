@@ -1,3 +1,6 @@
+/*
+17
+ */
 public class ImpostoDeRenda {
     public static void main(String[] args) {
         double salario = 2900D;
