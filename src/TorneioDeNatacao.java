@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 /*
 
-18
+18 e 19
 
 Eu como usuário gostaria de ter o nome e a idade de participantes de
 um torneio de natação e que o sistema imprimisse da segiunte forma
@@ -16,8 +18,11 @@ SCRUM
 */
 public class TorneioDeNatacao {
     public static void main(String[] args) {
-        String nome = "Lyffy";
-        int idade = 9;
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite seu nome: ");
+        String nome = teclado.next();
+        System.out.println("Digite sua idade: ");
+        int idade = teclado.nextInt();
         if (idade <= 10) {
             System.out.println(nome + " participará da categoria Infantil");
         } else if (idade >= 11 && idade <= 15) {
