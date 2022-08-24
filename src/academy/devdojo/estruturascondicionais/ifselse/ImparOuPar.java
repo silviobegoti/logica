@@ -1,4 +1,4 @@
-package academy.devdovo.estruturascondicionais;
+package academy.devdojo.estruturascondicionais.ifselse;
 
 /*
 16
