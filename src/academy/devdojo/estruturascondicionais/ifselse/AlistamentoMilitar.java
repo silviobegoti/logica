@@ -1,4 +1,4 @@
-package academy.devdovo.estruturascondicionais;
+package academy.devdojo.estruturascondicionais.ifselse;
 
 public class AlistamentoMilitar {
     public static void main(String[] args) {
