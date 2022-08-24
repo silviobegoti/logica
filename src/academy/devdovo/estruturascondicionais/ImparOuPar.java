@@ -1,3 +1,5 @@
+package academy.devdovo.estruturascondicionais;
+
 /*
 16
 Dado um determinado número inteiro

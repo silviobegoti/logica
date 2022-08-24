@@ -1,3 +1,5 @@
+package academy.devdovo.estruturascondicionais;
+
 import java.util.Scanner;
 
 /*

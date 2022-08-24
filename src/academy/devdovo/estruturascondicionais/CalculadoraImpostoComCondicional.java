@@ -1,3 +1,5 @@
+package academy.devdovo.estruturascondicionais;
+
 /*
 15
 Dado um determinado salário

@@ -1,3 +1,5 @@
+package academy.devdovo.estruturascondicionais;
+
 public class AlistamentoMilitar {
     public static void main(String[] args) {
         char sexo = 'M';

@@ -1,3 +1,5 @@
+package academy.devdojo.variaveis;
+
 /*
 Crie uma variável que irá guradar o valor de um salário;
 Calcule a porcentagem desse salário, os valores da porcentagem

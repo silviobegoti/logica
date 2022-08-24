@@ -1,3 +1,5 @@
+package academy.devdojo.variaveis;
+
 /*
 Crie uma classe que calcule uma determninada porcentagem de um dado salário
 Criar uma classe

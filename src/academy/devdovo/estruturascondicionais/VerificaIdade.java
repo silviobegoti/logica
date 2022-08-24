@@ -1,3 +1,5 @@
+package academy.devdovo.estruturascondicionais;
+
 /*
 Receba uma idade como entrada
 Se idade for maior que 18 imprima "Adulto"
