@@ -15,7 +15,7 @@ public class AlistamentoMilitar1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite o Sexo (M) ou (F): ");
-        char sexo = input.next();
+        String sexo = input.next();
         System.out.println("Digit a Idade: ");
         int idade = input.nextInt();
         if ((sexo == 'M' || sexo == 'F') && idade < 18) {
@@ -29,4 +29,4 @@ public class AlistamentoMilitar1 {
     }
 
 }
- */
+/*
